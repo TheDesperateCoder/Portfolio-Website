@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="dark-mode-toggle">
+        <button id="toggle-mode">🌙 Toggle Dark Mode</button>
+    </div>
+
+    <header class="animated-header">
+        <h1 class="glow">Hi, I'm Utkarsh Abhishek</h1>
+        <p class="subtext">A Passionate & Desperate Web Developer</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section about-section fade-in">
+        <h2>About Me</h2>
+        <p>Welcome to my digital abode! I am a full stack developer with a passion for building scalable and user-friendly web applications. I love to create elegant solutions to complex problems. I believe in achieving a perfect blend of Ul architecture, where goals and needs are elegantly, efficiently, and robustly designed. Experienced in ReactJS, React Native, NextJS, and state management like Redux, with proficiency in web technologies such as HTML5, CSS3, JavaScript. Skilled in building large- scale web applications, ensuring compatibility across various browsers and adhering to design constraints on the web. Also adept at creating responsive user interfaces.</p>
+    </section>
+
+    <section id="projects" class="section project-section slide-in">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card zoom-effect">
+                <h3>Foodie</h3>
+                <p>Foodie is a modern web application that offers a seamless experience for exploring and ordering food. Using the FoodFire API, Foodie fetches data based on user geolocation, allowing for a personalized browsing experience. The app is designed with easy navigation, responsive design, and supports mobile devices.</p>
+            </div>
+            <div class="project-card zoom-effect">
+                <h3>Netflix Clone</h3>
+                <p>A Netflix-inspired web application with essential features like login, logout, signup, forget password, adding movies to a watch later list, and liking movies. Built with React, Firebase, TMDB API, and Tailwind CSS.</p>
+            </div>
+            <div class="project-card zoom-effect">
+                <h3>Weather App</h3>
+                <p>About
+                    The Weather App is a user-friendly web application that provides real-time weather information for any location worldwide. This app allows users to search for a city or use their current location to get accurate and up-to-date weather data.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section fade-in">
+        <h2>Contact Me</h2>
+        <p>If you have a project in mind or just want to say hello, feel free to reach out. I'd love to hear from you!</p>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required >
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required >
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Utkarsh Abhishek. Crafted with ❤️ and creativity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
