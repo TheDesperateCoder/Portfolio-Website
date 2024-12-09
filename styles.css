@@ -219,6 +219,22 @@ header .subtext {
 
 }
 
+input::placeholder{
+    opacity: 0;
+}
+textarea::placeholder{
+    opacity: 0;
+}
+
+.form-group input:focus + label ::placeholder{
+    opacity: 1;
+}
+
+.form-group textarea:not(:placeholder-shown) + label {
+    opacity: 1;
+}
+
+
 .submit-btn {
     padding: 12px 25px;
     font-size: 1rem;
